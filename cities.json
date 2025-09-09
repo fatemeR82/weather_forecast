@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "name": "Tehran",
+      "image": "images/tehran/tehran-0.jpg",
+      "images": [
+        "images/tehran/tehran-1.jpg",
+        "images/tehran/tehran-2.jpg",
+        "images/tehran/tehran-3.jpg",
+        "images/tehran/tehran-4.jpg"
+      ]
+    },
+    {
+      "name": "Mashhad",
+      "image": "images/mashhad/mashhad-0.jpg",
+      "images": [
+        "images/mashhad/mashhad-1.jpg",
+        "images/mashhad/mashhad-2.jpg",
+        "images/mashhad/mashhad-3.jpg",
+        "images/mashhad/mashhad-4.jpg"
+      ]
+    },
+    {
+      "name": "Isfahan",
+      "image": "images/isfahan/isfahan-0.jpg",
+      "images": [
+        "images/isfahan/isfahan-1.jpg",
+        "images/isfahan/isfahan-2.jpg",
+        "images/isfahan/isfahan-3.jpg",
+        "images/isfahan/isfahan-4.jpg"
+      ]
+    },
+    {
+      "name": "Shiraz",
+      "image": "images/shiraz/shiraz-0.jpg",
+      "images": [
+        "images/shiraz/shiraz-1.jpg",
+        "images/shiraz/shiraz-2.jpg",
+        "images/shiraz/shiraz-3.jpg",
+        "images/shiraz/shiraz-4.jpg"
+      ]
+    },
+    {
+      "name": "Tabriz",
+      "image": "images/tabriz/tabriz-0.jpg",
+      "images": [
+        "images/tabriz/tabriz-1.jpg",
+        "images/tabriz/tabriz-2.jpg",
+        "images/tabriz/tabriz-3.jpg",
+        "images/tabriz/tabriz-4.jpg"
+      ]
+    },
+    {
+      "name": "Rasht",
+      "image": "images/rasht/rasht-0.jpg",
+      "images": [
+        "images/rasht/rasht-1.jpg",
+        "images/rasht/rasht-2.jpg",
+        "images/rasht/rasht-3.jpg",
+        "images/rasht/rasht-4.jpg"
+      ]
+    }
+  ]
+}

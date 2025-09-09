@@ -1,0 +1,50 @@
+@import "common.css";
+@import "header.css";
+@import "slideshow.css";
+.city-detail-section {
+  background-color: var(--card-bg);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+  position: relative;
+  border: 1px solid var(--border);
+}
+
+.city-detail-section h2 {
+  color: var(--text-dark);
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.city-detail-section h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 50px;
+  height: 3px;
+  background-color: var(--primary);
+}
+
+.city-detail-section p {
+  font-size: 1.1rem;
+  margin: 15px 0;
+  color: var(--text-dark);
+}
+
+.city-detail-images {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}

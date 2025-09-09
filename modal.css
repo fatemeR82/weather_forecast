@@ -1,0 +1,59 @@
+.modal {
+  display: none; /* به طور پیش‌فرض پنهان است */
+  position: fixed; /*حتی با اسکرول صفحه، مودال همانجا می‌ماند*/
+  z-index: 1000; /*مودال را روی همه المان‌های دیگر صفحه قرار می‌دهد (مقدار بالا = لایه بالاتر)*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* پس‌زمینه نیمه‌شفاف */
+  animation: fadeIn 0.3s;
+}
+
+.modal-content {
+  text-align: left;
+  direction: ltr;
+  background-color: white;
+  margin: 15% auto; /*باعث وسط قرار گرفتن افقی می‌شود*/
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* سایه‌ای با آفست عمودی ۵ پیکسل، محو ۱۵ پیکسل و رنگ مشکی با شفافیت ۳۰٪*/
+}
+
+.modal-close {
+  color: #aaa;
+  float: right; /*دکمه را به سمت چپ (برای رابط کاربری فارسی) می‌کشد*/
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer; /*تغییر شکل نشانگر ماوس به حالت اشاره‌گر (دست) هنگام هاور*/
+}
+
+.modal-close:hover {
+  color: black;
+}
+
+.weather-report {
+  font-family: "Vazirmatn", sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.report-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.report-item h3 {
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.report-item p {
+  color: #666;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
