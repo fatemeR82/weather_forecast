@@ -38,13 +38,54 @@
 }
 
 .city-detail-images {
-  flex: 0 0 auto;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  display: none;
-  opacity: 0;
+  position: relative;
   transition: opacity 0.3s ease;
+}
+
+@media (max-width: 992px) {
+  .city-detail-section {
+    padding: 20px;
+  }
+
+  .city-detail-images {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .city-detail-section {
+    padding: 15px;
+  }
+
+  .city-detail-images {
+    max-width: 280px;
+  }
+
+  .city-detail-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .city-detail-section {
+    padding: 10px;
+  }
+
+  .city-detail-images {
+    max-width: 240px;
+  }
+
+  .city-detail-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .city-detail-section p {
+    font-size: 1rem;
+  }
 }

@@ -3,7 +3,7 @@
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #f44336;
+  background-color: var(--error);
   color: white;
   padding: 15px 25px;
   border-radius: 5px;
